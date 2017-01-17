@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+.banner {
+  background-color: #F55E05;
+  max-height: 80px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.banner img {
+  max-width:10%;
+  max-height: 5%;
+  padding: 20px 0 0 10px;
+}
+
+.banner button {
+  margin-left: 600px;
+  margin-right: 100px;
+  background-color: #F55E05;
+  border: 2px #B0E6E2 solid;
+  color: #B0E6E2;
+  vertical-align: 50%;
+}
+
+.banner p {
+  font-family: "Libre Franklin";
+  display: inline-block;
+  text-align: middle;
+  color: white;
+
+}
+
+.body {
+  height: 100%;
+  width: 100%;
+  font-family: "Libre Franklin", "Helvetic Neue", "sans-serif";
+}
+.container {
+  min-height: 560px;
+  background-size: cover;
+  background-image: url("../images/hero-splash-roommates-fun.jpg");
+  margin: 0;
+  padding: 0;
+}
+.container h1 {
+  font-family: "Helvetica Neue";
+  color: white;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  padding: 180px 0 0 0;
+
+}
+.container p {
+  font-family: "Helvetica Neue";
+  color: white;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 32px;
+}
+.container h3 {
+  background-color: white;
+  color: white;
+  width: 30%;
+  padding: 0%;
+  margin: 0 0 0 30%;
+
+  line-height: 3;
+
+  border-radius: 2px;
+  display: inline-block;
+  border: 0px;
+
+}
+.container a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Helvetica Neue";
+  color: white;
+  margin: 0;
+  background-color: #29BBAF;
+  padding: 20px;
+  border-radius: 2px;
+  font-weight: 300;
+  border: 0;
+}
+.desc-column {
+  display: inline-block;
+  width: 24%;
+  padding: 10px;
+}
+.desc-column p {
+  background-color: black;
+  font-family: "Helvetica Neue";
+  color: white;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 6px;
+}
+.box {
+  border: #F55E05 2px solid;
+  max-width: 100px;
+  min-height: 50px;
+  text-align: center;
+  color: #F55E05;
+  margin-left: 45%;
+  margin-top: 30px;
+  font-family: "Helvetica Neue";
+  padding: 15px 0 0 0;
+  margin-bottom: 60px;
+}
+.wrapper {
+  background-color: lightgrey;
+  padding: 30px;
+}
+.column  {
+  font-family: "Helvetica Neue";
+  display: inline-block;
+  width: 33.3333%;
+  margin-left: 10%;
+  border: black 2px solid;
+  background-color: white;
+  margin-bottom: 0;
+
+}
+.column h2 {
+  font-size: 20px;
+  padding: 8px 8px 0px;
+  font-weight: 600;
+  margin-left: 6px;
+}
+.column p {
+  padding: 0 4px 0;
+  margin-left: 8px;
+  font-weight: 500;
+}
+.column h3 {
+  padding: 0 4px;
+  margin: 4px 0 20px 8px;
+  font-weight: 500;
+  font-size: 16px;
+
+}
+.next {
+  display: inline-block;
+  margin: 0 0 0 70px;
+  min-height: 200px;
+}
+
+.next h1 {
+  font-family: "Helvetica Neue";
+  font-size: 24px;
+  padding-bottom: 10px;
+  font-weight: 300;
+}
+
+.next p, li {
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  padding: 4%;
+}
+.column-container {
+  background-color: black;
+  display: inline-block;
+  color: white;
+  width: 100%;
+  font-family: "Helvetica Neue";
+  font-size: 12px;
+  padding: 20px;
+  font-weight: lighter;
+}
+
+.column-container h2 {
+  color: lightgrey;
+  font-size: 15px;
+  padding: 8px;
+  font-weight: 400;
+}
+.company {
+  display: inline-block;
+  width: 31.3333%;
+}
+.media {
+  display: inline-block;
+  width: 31.3333%
+}
+.directory {
+  display: inline-block;
+  width: 31.333%;
+  margin-bottom: 20px;
+}
+.logos {
+  background-color: black;
+}
+
+.logos img {
+max-width: 50%;
+margin: 0;
+padding: 0;
+}
+
+.facebook {
+  display: inline-block;
+  margin-left: 50%;
+}
+
+.insta {
+  display: inline-block;
+
+}
+
+.twit {
+  display: inline-block;
+
+}
+
+.goog {
+  display: inline-block;
+
+}
